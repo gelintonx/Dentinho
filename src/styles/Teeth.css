@@ -1,0 +1,25 @@
+
+.container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;   
+}
+
+.teethContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+}
+    
+.teeth-1 { grid-area: 1 / 1 / 2 / 2; }
+.teeth-2 { grid-area: 1 / 2 / 2 / 3; }
+.teeth-3 { grid-area: 1 / 3 / 2 / 4; }
+.teeth-4 { grid-area: 1 / 4 / 2 / 5; }
+.teeth-5 { grid-area: 2 / 1 / 3 / 2; }
+.teeth-6 { grid-area: 2 / 2 / 3 / 3; }
+.teeth-7 { grid-area: 2 / 3 / 3 / 4; }
+.teeth-8 { grid-area: 2 / 4 / 3 / 5; }
+    

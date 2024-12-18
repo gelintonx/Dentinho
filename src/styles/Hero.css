@@ -1,0 +1,43 @@
+/* Hero Container styles */
+.hero-container {
+  width: 100%; /* Full width */
+  height: auto; /* Adjust height dynamically */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content */
+  justify-content: center;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background color for contrast */
+  box-sizing: border-box;
+  margin-bottom: 4rem;
+}
+
+/* Hero Title */
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 40px; /* Add spacing between title and 3D viewer */
+  text-align: center;
+}
+
+/* Viewer Wrapper */
+.viewer-wrapper {
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content: center; /* Center the 3D viewer */
+  align-items: center;
+  margin-top: 20px; /* Extra spacing between viewer and title */
+}
+
+/* GLTF Viewer Container */
+.gltf-container {
+  width: 100%; /* Full width */
+  height: auto; /* Adjust dynamically */
+  display: flex;
+  justify-content: center; /* Center the second GLTFViewer */
+  align-items: center;
+  background-color: #fff; /* Optional: Different background for contrast */
+  padding: 20px;
+  box-sizing: border-box;
+}
